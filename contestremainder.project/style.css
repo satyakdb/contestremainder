@@ -1,0 +1,307 @@
+#body1 {
+
+    background-image: url('images/loginpagebackground2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    background-image: url('images/loginpagebackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#body2 {
+    background-image: url('images/loginpagebackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logincontainer {
+    background-color: rgb(54, 173, 220);
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+#imginfo {
+    display: flex;
+
+}
+
+#loginheading {
+    text-align: center;
+}
+
+#loginmainimg {
+    width: 83px;
+    height: 69px;
+}
+
+.username {
+    margin-bottom: 15px;
+}
+
+#username {
+    width: 400px;
+    height: 30px;
+    border-color: rgb(141, 141, 226);
+    border-radius: 7px;
+}
+
+#labelusername {
+    margin-bottom: 20px;
+}
+
+#labelusername {
+    font-size: large;
+
+    font-weight: bold;
+}
+
+.useremail {
+    margin-bottom: 15px;
+}
+
+#email {
+    width: 400px;
+    height: 30px;
+    border-color: rgb(141, 141, 226);
+    border-radius: 7px;
+}
+
+#labelusermail {
+    margin-bottom: 20px;
+}
+
+#labelmail {
+    font-size: large;
+
+    font-weight: bold;
+}
+
+.passwordname {
+    margin-bottom: 15px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.password {
+    margin-bottom: 15px;
+}
+
+#password {
+    width: 400px;
+    height: 30px;
+    border-color: rgb(143, 143, 231);
+    border-radius: 7px;
+}
+
+#lablepassword {
+    font-size: large;
+    font-weight: bold;
+}
+
+.conformpassword {
+    margin-bottom: 15px;
+}
+
+#conformpassword {
+    width: 400px;
+    height: 30px;
+    border-color: rgb(143, 143, 231);
+    border-radius: 7px;
+}
+
+#conformlablepassword {
+    font-size: large;
+    font-weight: bold;
+}
+
+
+#signinbutton {
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    width: 407px;
+    height: 39px;
+    border-color: blue;
+}
+
+#registerinbutton {
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    width: 407px;
+    height: 39px;
+    border-color: blue;
+}
+
+.register {
+    background-color: green;
+    border-color: green;
+    color: white;
+    border-radius: 7px;
+    width: 134px;
+    height: 30px;
+}
+
+/* homepagestart */
+.contestdetails {
+    display: flex;
+    justify-content: center;
+}
+
+.contestdetails1 {
+    margin: 0px;
+    padding-left: 28px;
+
+    background-color: rgb(65, 51, 196);
+    width: 250px;
+    height: 248px;
+    border-radius: 10px;
+}
+
+
+.heading {
+    text-align: center;
+}
+
+.cardscontainer {
+    
+    background-image: url('images/loginpagebackground2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-left: 137px;
+    max-width: 1300px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    left: 27px;
+
+
+}
+
+.card {
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    /* Green background color */
+    color: white;
+    /* Text color */
+    max-width: 250px;
+    max-height: 400px;
+    /* Set a maximum width for better readability */
+}
+
+
+
+.contestname,
+.enddate,
+.endtime {
+    text-align: center;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h5 {
+    margin: 0;
+}
+
+.button {
+    margin-top: 10px;
+}
+
+.remove {
+    background-color: #fff;
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.red {
+    background-color: rgb(109, 59, 48);
+}
+
+/* homepageend */
+/* footer start */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+}
+
+.footer-column h2 {
+    color: #4CAF50;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 10px;
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* footerend */
